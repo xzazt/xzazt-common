@@ -13,12 +13,12 @@
         <repository>
             <id>nexus-releases</id>
             <name>nexus</name>
-            <url>http://localhost:8081/repository/xzazt-group/</url>
+            <url>http://192.168.3.201:8081/repository/xzazt-releases/</url>
         </repository>
         <snapshotRepository>
             <id>nexus-snapshots</id>
             <name>snapshots</name>
-            <url>http://localhost:8081/repository/xzazt-snapshots/</url>
+            <url>http://192.168.3.201:8081/repository/xzazt-snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
 

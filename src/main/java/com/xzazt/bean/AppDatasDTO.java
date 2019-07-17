@@ -1,4 +1,11 @@
 package com.xzazt.bean;
 
-public class AppDatasDTO {
+import lombok.Data;
+
+import java.util.List;
+
+@Data
+public class AppDatasDTO<T> {
+    private Integer totalCount;
+    private List<T> datas;
 }
