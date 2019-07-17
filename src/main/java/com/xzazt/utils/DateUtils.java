@@ -77,7 +77,7 @@ public class DateUtils {
         return calendar.getTime();
     }
 
-    public static void main(String[] args) {
-        System.out.println(formatString(getPreDay(getCurrentDate(),2)));
-    }
+//    public static void main(String[] args) {
+//        System.out.println(formatString(getPreDay(getCurrentDate(),2)));
+//    }
 }
